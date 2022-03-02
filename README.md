@@ -1,5 +1,5 @@
 <h1 align="center" style="border-botom: none">
-  <b>📚 A block resampling method used for weakly-dependent stationary time-series data (BM)📚
+  <b>📚 A block resampling method used for weakly-dependent stationary time-series data 📚
   </b>
 </h1>
 
