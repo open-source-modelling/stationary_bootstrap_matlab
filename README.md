@@ -16,12 +16,12 @@ Stationary bootstrap is a block-resampling technique that relaxes the assumption
 The algorithm works by randomly selecting a starting point in the time-series and at each step it either increases the block size by one or selects a new block with a new starting point. This choice happens with a fixed probability governed by the parametrisation.
 
 ### Input
- - A time-series that you want to bootstrap
- - The parameter m describing the average duration of the blocks in the sample
- - The length of the output sample
+ - A time-series that you want to bootstrap.
+ - The parameter `m` describing the average duration of the blocks in the sample.
+ - The length of the output sample.
  
  ### Output
-  - Vector of bootstrapped values of specified length
+  - Vector of bootstrapped values of specified length.
 
 ## Getting started
 
@@ -37,9 +37,9 @@ StationaryBootstrap(data, 4, 9)
 
 ## Calibration of the parameter
 
-For the calibration of the parameter, a really good source is Andrew J. Patton's implementation that can be found here: http://public.econ.duke.edu/~ap172/
+For the calibration of the parameter, a really good source is Andrew J. Patton's implementation that can be found [here](http://public.econ.duke.edu/~ap172/)
 
 ## Example script
-Script IRS_Example.m contains an example of bootstrapping the EURO denominated 6M interest-rate-swap rate. Data is obtained from the Italian stock exchange: https://www.teleborsa.it/Quotazioni/Tassi/Eurirs for date 12/11/2021.
+Script IRS_Example.m contains an example of bootstrapping the EURO denominated 6M interest-rate-swap rate. Data is obtained from the [Italian stock exchange](https://www.teleborsa.it/Quotazioni/Tassi/Eurirs) for date 12/11/2021.
 
 
